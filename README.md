@@ -52,7 +52,7 @@ ProPass Ultimate, Chromium tabanlı tarayıcılar (Chrome, Brave, Edge, Opera) i
 
 ## 📄 Lisans
 
-Bu proje [MIT](LICENSE) lisansı altında korunmaktadır.
+Bu proje [GNU AFFERO GENERAL PUBLIC](LICENSE) lisansı altında korunmaktadır.
 
 ---
 *Geliştiren: [Senin Adın/Kullanıcı Adın]*
