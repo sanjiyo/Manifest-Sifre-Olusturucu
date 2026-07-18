@@ -4,7 +4,7 @@ ProPass Ultimate, Chromium tabanlı tarayıcılar (Chrome, Brave, Edge, Opera) i
 
 ![Versiyon](https://img.shields.io/badge/version-8.0-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Chromium-orange.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
+
 
 ## 🚀 Öne Çıkan Özellikler
 
