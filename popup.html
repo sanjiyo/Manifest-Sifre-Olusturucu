@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="box">
+        <div class="header-row">
+            <h2 class="title">MANİFESTT <span>AREM ARMAN</span></h2>
+            <!-- Aktif/Pasif Şalteri -->
+            <label class="switch">
+                <input type="checkbox" id="extStatus" checked>
+                <span class="slider round"></span>
+            </label>
+        </div>
+        
+        <div id="mainContent">
+            <!-- Üretici Bölümü -->
+            <div class="section">
+                <div class="row">
+                    <span>Uzunluk: <b id="lVal">16</b></span>
+                    <input type="range" id="len" min="8" max="40" value="16">
+                </div>
+                <div class="grid">
+                    <label><input type="checkbox" id="up" checked> ABC</label>
+                    <label><input type="checkbox" id="sp" checked> #$!</label>
+                    <label><input type="checkbox" id="nm" checked> 123</label>
+                </div>
+                <button id="mainGen" class="main-btn">ÜRET & KOPYALA</button>
+                <div class="row vol-row">
+                    <span>🔊 Ses</span>
+                    <input type="range" id="vol" min="0" max="1" step="0.1" value="0.5">
+                </div>
+            </div>
+
+            <div class="divider">MANUEL EKLE</div>
+            <div class="manual-add section">
+                <input type="text" id="mUrl" placeholder="Site URL (örn: github.com)">
+                <input type="text" id="mUser" placeholder="Kullanıcı Adı / Mail">
+                <input type="password" id="mPass" placeholder="Şifre">
+                <button id="mSave" class="save-btn">KASAYA KAYDET</button>
+            </div>
+
+            <div class="divider">KAYITLI KASA</div>
+            <div id="vList" class="vault"></div>
+        </div>
+        
+        <div id="disabledMsg" class="disabled-msg" style="display:none;">
+            <p>Uzantı şu an devre dışı.</p>
+            <small>Aktif etmek için yukarıdaki şalteri kullanın.</small>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+body { width: 340px; background: #0b0f1a; color: white; font-family: 'Segoe UI', sans-serif; padding: 15px; margin: 0; }
+.box { background: #161b2c; padding: 15px; border-radius: 12px; border: 1px solid #2d3748; }
+.header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+.title { color: #3b82f6; margin: 0; font-size: 16px; font-weight: 800; }
+.title span { color: white; }
+
+/* Şalter (Toggle Switch) CSS */
+.switch { position: relative; display: inline-block; width: 40px; height: 20px; }
+.switch input { opacity: 0; width: 0; height: 0; }
+.slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #334155; transition: .4s; border-radius: 20px; }
+.slider:before { position: absolute; content: ""; height: 14px; width: 14px; left: 3px; bottom: 3px; background-color: white; transition: .4s; border-radius: 50%; }
+input:checked + .slider { background-color: #3b82f6; }
+input:checked + .slider:before { transform: translateX(20px); }
+
+.disabled-msg { text-align: center; padding: 40px 0; color: #64748b; }
+.main-btn { width: 100%; background: #3b82f6; border: none; padding: 10px; border-radius: 8px; color: white; font-weight: bold; cursor: pointer; margin-top: 5px; }
+.manual-add input { width: 100%; background: #0b0f1a; border: 1px solid #2d3748; padding: 8px; border-radius: 4px; color: white; font-size: 11px; margin-bottom: 6px; box-sizing: border-box; }
+.save-btn { width: 100%; background: #10b981; border: none; padding: 8px; border-radius: 6px; color: white; font-weight: bold; cursor: pointer; }
+.vault { max-height: 180px; overflow-y: auto; }
+.item { background: #0b0f1a; padding: 10px; margin-bottom: 8px; border-radius: 8px; display: flex; justify-content: space-between; border-left: 3px solid #3b82f6; }
+.site-link { color: #3b82f6; text-decoration: none; font-weight: bold; font-size: 12px; }
+.btns button { background: none; border: 1px solid #2d3748; color: white; cursor: pointer; padding: 3px; border-radius: 4px; margin-left: 3px; }
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-thumb { background: #3b82f6; border-radius: 10px; }
