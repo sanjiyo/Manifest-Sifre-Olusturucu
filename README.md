@@ -55,4 +55,4 @@ ProPass Ultimate, Chromium tabanlı tarayıcılar (Chrome, Brave, Edge, Opera) i
 Bu proje [GNU AFFERO GENERAL PUBLIC](LICENSE) lisansı altında korunmaktadır.
 
 ---
-*Geliştiren: [Senin Adın/Kullanıcı Adın]*
+*Geliştiren: [VACation]*
