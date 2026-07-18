@@ -1,4 +1,4 @@
-# 🔐 ProPass Ultimate V8
+# 🔐 Manifest şifre oluşturucusu (AREM ARMANNNNNNN)
 
 ProPass Ultimate, Chromium tabanlı tarayıcılar (Chrome, Brave, Edge, Opera) için geliştirilmiş, modern, güvenli ve kullanıcı dostu bir şifre yönetim ve üretim uzantısıdır. Manifest V3 standartlarına tam uyumlu olarak geliştirilmiştir.
 
